@@ -17,7 +17,8 @@ limitations under the License.
 package e2e
 
 const (
-	etcdImage      = "quay.io/coreos/etcd:v3.5.16"
+	etcdImage = "quay.io/coreos/etcd:v3.5.16"
+	// TODO remove hyperkube, it is deprecated
 	hyperkubeImage = "registry.k8s.io/hyperkube:v1.18.20"
 	dnsmasqImage   = "registry.k8s.io/k8s-dns-dnsmasq-amd64:1.14.5"
 )
