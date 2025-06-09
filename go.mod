@@ -1,6 +1,6 @@
 module k8s.io/dns
 
-go 1.24.0
+go 1.23.0
 
 require (
 	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98
@@ -180,6 +180,7 @@ replace (
 	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.30.12
 	k8s.io/kubectl => k8s.io/kubectl v0.30.12
 	k8s.io/kubelet => k8s.io/kubelet v0.30.12
+	k8s.io/kubernetes => k8s.io/kubernetes v1.30.12
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.30.12
 	k8s.io/metrics => k8s.io/metrics v0.30.12
 	k8s.io/mount-utils => k8s.io/mount-utils v0.30.12
